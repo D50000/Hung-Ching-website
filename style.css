@@ -1,5 +1,44 @@
+html {
+    background-image: url(image/blackstreet200.png);
+    background-position: center center;
+}
+        
+body {
+    background-image: url(image/BG_Intro.jpg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+        
+.style1 {
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.style2 {
+    font-family: "微軟正黑體";
+    font-size: 22px;
+}
+        
+.style3 {
+    font-size: 18px;
+    font-family: "微軟正黑體";
+}
+        
+.style4 {
+    color: #CCCCCC
+}
+
 .container {
     margin: 0 auto;
+}
+
+.center {
+    margin: 0 auto 0 auto;
+}
+
+.right {
+    float: right;
 }
 
 section {
@@ -13,6 +52,10 @@ section {
 
 .input {
     margin: 20px 0;
+}
+
+.bg-gray {
+    background-color: #444c52!important;
 }
 
 /* For mobile phones: */
