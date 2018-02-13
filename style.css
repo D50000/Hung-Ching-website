@@ -1,18 +1,21 @@
-html {
-    background-image: url(image/blackstreet200.png);
-    background-position: center center;
-}
-        
-body {
+.intro_background {
     background-image: url(image/BG_Intro.jpg);
-    background-position: center 0;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.gray_background {
+    background-image: url(image/blackstreet200.png);
 }
         
 .style1 {
     font-family: "微軟正黑體";
     font-weight: bold;
     font-size: 24px;
+    background-image: url(image/IB.png);
+    background-size: cover;
+    height: 36px;
 }
 
 .style2 {
@@ -21,16 +24,22 @@ body {
 }
         
 .style3 {
+    margin:15px 0px 15px 0px;
     font-size: 18px;
     font-family: "微軟正黑體";
 }
         
 .style4 {
+    font-size: 12px;
     color: #CCCCCC
 }
 
-.container {
-    margin: 0 auto;
+.container_center_outside { 
+    text-align: center; 
+}
+
+.container_center {
+    vertical-align: middle; 
 }
 
 .center {
@@ -39,6 +48,10 @@ body {
 
 .right {
     float: right;
+}
+
+.left {
+    float: left;
 }
 
 section {
@@ -54,6 +67,14 @@ section {
     margin: 20px 0;
 }
 
+.image {
+    height: 100px;
+}
+
+.copyright {
+    margin: 15px auto 15px auto;
+}
+
 .bg-gray {
     background-color: #444c52!important;
 }
@@ -64,8 +85,8 @@ section {
     width: 100%;
 }
 
-@media only screen and (min-width: 720px) {
-    /* For tablets: */
+@media only screen{
+    /* For mobile devices: */
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
     .col-m-3 {width: 25%;}
