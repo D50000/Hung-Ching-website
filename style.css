@@ -8,12 +8,37 @@
 .gray_background {
     background-image: url(image/blackstreet200.png);
 }
-        
+
+.nav_top {
+    max-width: 1007px;
+    overflow: hidden;
+}
+
+.nav {
+    max-width: 998px;
+    min-height: 34px;
+    background-color: #2f2e2e;
+    background: linear-gradient(#3f3e3e, #1f1e1e);
+    border: 1.5px solid #bfb3b3;
+    font-size: 24px;
+    margin:-4px 0px 0px 0px;
+}
+
+.nav_button {
+    /*background-color: #2f2e2e;*/
+    text-decoration:none;
+    font-size: 20px;
+    color: #e4e1e1;
+    margin:0px 0px 0px 30px;
+
+    transition: all 0.5s;
+    cursor: pointer;
+}    
+
 .style1 {
     font-family: "微軟正黑體";
     font-weight: bold;
     font-size: 24px;
-    background-image: url(image/IB.png);
     background-size: cover;
     height: 36px;
 }
