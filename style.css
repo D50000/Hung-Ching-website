@@ -33,11 +33,21 @@
 
     transition: all 0.5s;
     cursor: pointer;
-}   
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFCC00;
+}
+        
+a:active {
+    text-decoration: none;
+    color: #0066FF;
+}
 
 .flex-container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .td_style {
