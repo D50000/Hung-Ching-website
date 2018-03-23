@@ -3,65 +3,204 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>弘旌有限公司</title>
+    <style type="text/css">
+        html {
+            background-image: url(image/blackstreet200.png);
+            background-position: center center;
+        }
+        
+        body {
+            background-image: url(image/BG_Intro.jpg);
+            background-position: center 0;
+            background-repeat: no-repeat;
+        }
+        
+        .style1 {
+            font-family: "微軟正黑體";
+            font-weight: bold;
+            font-size: 24px;
+        }
+        
+        .style3 {
+            font-size: 18px;
+            font-family: "微軟正黑體";
+        }
+        
+        .style4 {
+            color: #CCCCCC
+        }
+    </style>
 </head>
 
-<body class="intro_background">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-gray center col-8 col-m-8">
-        <a class="navbar-brand style2 center" href="/index.htm">首頁</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto center">
-                <li class="nav-item active center">
-                    <a class="nav-link style2" href="/Intro.htm">公司簡介<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active center">
-                    <a class="nav-link style2" href="/Product.htm">產品資訊<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active center">
-                    <a class="nav-link style2" href="/Photo.htm">公司環境<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active center">
-                    <a class="nav-link style2" href="/Map.htm">公司地圖<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active center">
-                    <a class="nav-link style2" href="/Com.htm">連絡我們<span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="col-10 col-m-10 center">
-        <div style="margin-top:30%;"></div>
-
-        <div class="style1"><span style="margin-left:5%;">弘旌有限公司</span></div>
-        <div class="style3 col-8 col-m-8 left">
-            <span>「弘旌」有限公司具有17年專門製造販售螺絲、傢俱塑膠五金、也接受生產特定螺絲規格要求之經驗。</span>
-            <span>「便利、親切、快速、甜蜜價」為弘旌公司的精神象徵！弘旌專業團隊提供最親切的服務、最完善的建議滿足客戶的需求。</span>
-        </div>
-        <image src="image/LOGOR.jpg" class="style3 right image">
-
-        <div class="style1"><span style="margin-left:5%;">今日的弘旌</span></div>
-        <div class="style3 col-8 col-m-8 left">
-            <span class="style3">以「持續成長、永續發展」 為目標，不斷的進步、開拓以達到永續經營。繼續秉持著「便利、親切、快速、甜蜜價」的精神象徵！</span>
-            <span class="style3">品質方面能做到超出顧客的期許；客戶服務方面能做到精益求精的態度；經營方面能做到全方位、全球性的經營！</span>
-        </div>
-        <image src="image/689.png" class="style3 right image">
-
-        <image src="image/Menu11.jpg" class="col-12 col-m-12 center image">
+<body>
+    <div align="center">
+        <table width="1000" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <div class="nav_top">
+                    <div>
+                    <image src="image/navbar_en1.png">
+                    <nav class="nav">
+                        <a href="../index.htm" class="nav_button">首頁</a>
+                        <a href="Intro.htm" class="nav_button">公司簡介</a>
+                        <a href="Product.htm" class="nav_button">產品資訊</a>
+                        <a href="Photo.htm" class="nav_button">公司環境</a>
+                        <a href="Map.htm" class="nav_button">公司地圖</a>
+                        <a href="Com.htm" class="nav_button">連絡我們</a>
+                    </nav>
+                    </div>
+                </div>
+                <!-- <td>
+                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="100">
+                        <param name="movie" value="flash/Menu7.swf">
+                        <param name=quality value=high>
+                        <embed src="flash/Menu7.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="1000" height="100"></embed>
+                    </object>
+                </td> -->
+            </tr>
+            <tr>
+                <td height="350">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <div align="center">
+                        <table width="1000" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="50" background="image/IB.png">
+                                    <div align="center">
+                                        <table width="890" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td width="445">
+                                                    <div align="left"><span class="style1">弘旌有限公司</span></div>
+                                                </td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div align="center">
+                                        <table width="890" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table width="950" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td width="475" valign="top">
+                                                    <div align="left" class="style3">
+                                                        <p>「弘旌」有限公司具有17年專門製造販售螺絲、傢俱塑膠五金、也接受生產特定螺絲規格要求之經驗。</p>
+                                                        <p>「便利、親切、快速、甜蜜價」為弘旌公司的精神象徵！弘旌專業團隊提供最親切的服務、最完善的建議滿足客戶的需求。
+                                                        </p>
+                                                    </div>
+                                                </td>
+                                                <td width="475" valign="top">
+                                                    <div align="center">
+                                                        <table width="350" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td valign="top" class="style3">
+                                                                    <p>&nbsp;</p>
+                                                                </td>
+                                                                <td width="166" valign="top"><img src="image/LOGOR.jpg" width="166" height="163"></td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table width="445" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="1000" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="50" background="image/IB.png">
+                                    <div align="center">
+                                        <table width="890" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td width="445">
+                                                    <div align="left"><span class="style1">今日的弘旌</span></div>
+                                                </td>
+                                                <td>
+                                                    <div align="center"></div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div align="center">
+                                        <table width="890" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table width="950" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td width="475" valign="top">
+                                                    <div align="left" class="style3">以「持續成長、永續發展」 為目標，不斷的進步、開拓以達到永續經營。繼續秉持著「便利、親切、快速、甜蜜價」的精神象徵！
+                                                        <p>品質方面能做到超出顧客的期許；客戶服務方面能做到精益求精的態度；經營方面能做到全方位、全球性的經營！</p>
+                                                    </div>
+                                                </td>
+                                                <td width="475" valign="top">
+                                                    <div align="center">
+                                                        <table width="350" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td valign="top" class="style3">
+                                                                    <p>&nbsp;</p>
+                                                                </td>
+                                                                <td width="166" valign="top"><img src="image/689.png" width="166" height="166"></td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div align="center">
+                        <table width="1000" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td valign="top">
+                                    <div align="center"><img src="image/Menu11.jpg" width="1000" height="200">
+                                        <table width="900" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="110">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div align="center" class="style4">版權所有 ©弘旌有限公司 2012-2018.</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
     </div>
-    <div class="col-6 col-m-6 copyright style4 center container_center_outside"><span class="container_center">2012-2018 弘旌有限公司 版權所有</span></div>
 </body>
 
 </html>
