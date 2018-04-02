@@ -66,12 +66,12 @@
                         <div class="flex-container container_center_outside">
                             <div style="width: 40%">
                                 <a href="MPIntro.htm">
-                                    <image class="btn_style" src="image/Mbtn.png" id="MPIntro" onmousemove="imageGrow()" onmouseout="resetImage()">
+                                    <image class="btn_style" src="image/Mbtn.png" id="MPIntro">
                                 </a>
                             </div>
                             <div style="width: 40%">
                                 <a href="PPIntro.htm">
-                                    <image class="btn_style" src="image/Pbtn.png" id="PPIntro" onmousemove="imageGrow()" onmouseout="resetImage()">
+                                    <image class="btn_style" src="image/Pbtn.png" id="PPIntro">
                                 </a>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                     <div class="flex-container">
                         <div>
                             <a href="Cat.htm">
-                                <image class="btn_style" src="image/CatalogueBtn.png" id="Catalogue" onmousemove="imageGrow('this.id')" onmouseout="resetImage()">
+                                <image class="btn_style" src="image/CatalogueBtn.png" id="Catalogue">
                             </a>
                         </div>
                     </div>
@@ -99,16 +99,6 @@
             </tr>
         </table>
     </div>
-
-    <script>
-        function imageGrow(id) {
-            document.getElementById(id).classList.add('imageGrow');
-        }
-
-        function resetImage(id) {
-            document.getElementById(id).classList.remove('imageGrow');
-        }
-    </script>
 </body>
 
 </html>
