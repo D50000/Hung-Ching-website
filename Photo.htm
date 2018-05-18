@@ -6,29 +6,27 @@
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+    <script src="slider.js"></script>
     <title>弘旌有限公司</title>
     <style type="text/css">
         html {
             background-image: url(image/blackstreet200.png);
             background-position: center center;
         }
-
         body {
             background-image: url(image/BG3.jpg);
             background-position: center 0;
             background-repeat: no-repeat;
         }
-
         .style1 {
             font-size: 18px;
             font-family: "微軟正黑體";
             font-weight: bold;
         }
-
         .style4 {
             color: #CCCCCC
         }
-
         .style5 {
             color: #0066FF;
             font-weight: bold;
@@ -39,65 +37,67 @@
 </head>
 
 <body>
-    <div align="center">
-        <div class="nav_top">
-            <div>
-                <image src="image/navbar_ch1.png">
-                    <nav class="nav" style="font-family:微軟正黑體;">
-                        <a href="index.htm" class="nav_button">首頁</a>
-                        <a href="Intro.htm" class="nav_button">公司簡介</a>
-                        <a href="Product.htm" class="nav_button">產品資訊</a>
-                        <a href="Photo.htm" class="nav_button">公司環境</a>
-                        <a href="Map.htm" class="nav_button">公司地圖</a>
-                        <a href="Com.htm" class="nav_button">連絡我們</a>
-                    </nav>
-            </div>
-        </div>
-        <table width="1000" border="0" cellspacing="0" cellpadding="0">
-            <tr>
-                <td height="330">&nbsp;</td>
-            </tr>
-            <tr>
-                <td>
-                    <div align="center">
-                        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
-                            width="1000" height="400">
-                            <param name="movie" value="flash/Menu9.swf">
-                            <param name=quality value=high>
-                            <embed src="flash/Menu9.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"
-                                type="application/x-shockwave-flash" width="1000" height="400"></embed>
-                        </object>
-                        <table width="800" border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td>
-                                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
-                                        width="800" height="600">
-                                        <param name="movie" value="flash/V1.swf">
-                                        <param name=quality value=high>
-                                        <embed src="flash/V1.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"
-                                            type="application/x-shockwave-flash" width="800" height="600"></embed>
-                                    </object>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td height="0">&nbsp;</td>
-            </tr>
-        </table>
-        <table width="900" border="0" cellspacing="0" cellpadding="0">
-            <tr>
-                <td height="40">&nbsp;</td>
-            </tr>
-            <tr>
-                <td>
-                    <div align="center" style="color: #c7c7c7">版權所有 ©弘旌有限公司 2012-2018.</div>
-                </td>
-            </tr>
-        </table>
+<h2 style="text-align:center">Slideshow Gallery</h2>
+
+<div class="container">
+    <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="image/numbers/1.png" style="width:50%">
     </div>
+
+    <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="image/numbers/2.png" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="image/numbers/3.png" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="image/numbers/4.jpg" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="image/numbers/5.png" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="image/numbers/6.png" style="width:50%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img class="demo cursor" src="image/numbers/7.png" style="width:100%" onclick="currentSlide(1)" alt="111111">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="image/numbers/7.png" style="width:100%" onclick="currentSlide(2)" alt="222222">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="image/numbers/7.png" style="width:100%" onclick="currentSlide(3)" alt="33333">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="image/numbers/7.png" style="width:100%" onclick="currentSlide(4)" alt="444444">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="image/numbers/7.png" style="width:100%" onclick="currentSlide(5)" alt="55555">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="image/numbers/7.png" style="width:100%" onclick="currentSlide(6)" alt="6666666">
+        </div>
+    </div>
+</div>
 </body>
 
 </html>
